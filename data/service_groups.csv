@@ -1,0 +1,194 @@
+trade,name,group
+appliance,Cooling / Condenser Coil repair,ac_cooling_coil
+appliance,Copper Coil Condensor 1 ton Split,ac_cooling_coil
+appliance,Copper Coil Condensor 1.5 ton Split,ac_cooling_coil
+appliance,Copper Coil Condensor 2 ton Split,ac_cooling_coil
+appliance,Copper Cooling Coil (Split AC),ac_cooling_coil
+appliance,Copper Cooling Coil (Window AC),ac_cooling_coil
+appliance,Deep clean AC service (split),ac_deep_clean
+appliance,Deep clean AC service (window),ac_deep_clean
+appliance,Capacitor 10-25 mfd,ac_electrical_pcb
+appliance,Capacitor 2-5 mfd,ac_electrical_pcb
+appliance,Capacitor 35-50 mfd,ac_electrical_pcb
+appliance,Capacitor 50-60 mfd,ac_electrical_pcb
+appliance,Contactor Daikin/ O-General,ac_electrical_pcb
+appliance,Contactor replaced,ac_electrical_pcb
+appliance,Convert PCB with remote,ac_electrical_pcb
+appliance,Inverter PCB repaired,ac_electrical_pcb
+appliance,Non-Inverter PCB repaired,ac_electrical_pcb
+appliance,Replace LVT,ac_electrical_pcb
+appliance,Replace sensor,ac_electrical_pcb
+appliance,Stabilizer repair,ac_electrical_pcb
+appliance,Universal remote,ac_electrical_pcb
+appliance,AC fan blade,ac_fan_blower
+appliance,Blower motor replaced,ac_fan_blower
+appliance,Blower replaced,ac_fan_blower
+appliance,Fan motor outdoor,ac_fan_blower
+appliance,Replace Flap/Swing Motor,ac_fan_blower
+appliance,Swing blade replaced,ac_fan_blower
+appliance,Adjust pipe and tight compressor screw,ac_gas_compressor
+appliance,Capillary and filter replaced,ac_gas_compressor
+appliance,Compressor 0.8-1 ton,ac_gas_compressor
+appliance,Compressor 1.5 ton,ac_gas_compressor
+appliance,Compressor 2 ton,ac_gas_compressor
+appliance,Compressor grommets set,ac_gas_compressor
+appliance,Expansion valve replaced,ac_gas_compressor
+appliance,Gas Charging,ac_gas_compressor
+appliance,Pin Valve for window AC,ac_gas_compressor
+appliance,Service valve replaced (1 Pc),ac_gas_compressor
+appliance,Adjust Grill Locks,ac_grill_misc
+appliance,Grill Cover,ac_grill_misc
+appliance,"1 meter copper pipe set (with insulation, wire)",ac_install_uninstall
+appliance,Connector wires replaced (1m),ac_install_uninstall
+appliance,Drain pipe (1m),ac_install_uninstall
+appliance,Floor stand,ac_install_uninstall
+appliance,Indoor unit reinstalled,ac_install_uninstall
+appliance,Outdoor unit reinstalled,ac_install_uninstall
+appliance,Split AC Installation,ac_install_uninstall
+appliance,Split AC Uninstallation,ac_install_uninstall
+appliance,Split AC Wall stand,ac_install_uninstall
+appliance,Universal back plate,ac_install_uninstall
+appliance,Window AC Installation,ac_install_uninstall
+appliance,Window AC Uninstallation,ac_install_uninstall
+appliance,Water Leakage Repaired- Split AC,ac_water_leakage
+appliance,Water Leakage Repaired- Window AC,ac_water_leakage
+appliance,Water tray,ac_water_leakage
+appliance,LVT,microwave_controls
+appliance,PCB New,microwave_controls
+appliance,PCB Repair,microwave_controls
+appliance,Selector Switch,microwave_controls
+appliance,Switch Membrane / Key Pad Repair,microwave_controls
+appliance,Timer,microwave_controls
+appliance,Timer Knob,microwave_controls
+appliance,Door Hing,microwave_door
+appliance,Door Latch,microwave_door
+appliance,Door Switch,microwave_door
+appliance,Bulb,microwave_fan_light_misc
+appliance,Bulb Holder,microwave_fan_light_misc
+appliance,Cavity sensor,microwave_fan_light_misc
+appliance,Fan Blade,microwave_fan_light_misc
+appliance,Fan Blade Metal,microwave_fan_light_misc
+appliance,Fan Motor,microwave_fan_light_misc
+appliance,Power 3 Pin Plug Top,microwave_fan_light_misc
+appliance,Power Cord,microwave_fan_light_misc
+appliance,Convection Heater,microwave_not_heating
+appliance,Fuse 5 / 15 Amp,microwave_not_heating
+appliance,Grill Heater,microwave_not_heating
+appliance,Smart oven Grill Heater,microwave_not_heating
+appliance,Thermal Cut Off (TCO),microwave_not_heating
+appliance,Coupler,microwave_turntable
+appliance,Glass Turn table,microwave_turntable
+appliance,Roller,microwave_turntable
+appliance,Turn Table Motor,microwave_turntable
+electrician,Door bell installation,doorbell
+electrician,Door bell replacement,doorbell
+electrician,Ceiling Fan Installation,fan_repair_install
+electrician,Ceiling fan regulator replacement,fan_repair_install
+electrician,Decorative ceiling fan installation,fan_repair_install
+electrician,Fan Coil Repair,fan_repair_install
+electrician,Fan repair,fan_repair_install
+electrician,Fan replacement,fan_repair_install
+electrician,Fan uninstallation,fan_repair_install
+electrician,Havells 2.5 MFD Capacitor,fan_repair_install
+electrician,Havells 3.15 MFD Capacitor,fan_repair_install
+electrician,Havells Regulator (Fabia Design),fan_repair_install
+electrician,Havells Regulator (Reo Design),fan_repair_install
+electrician,Tibcon 2.5 MFD Capacitor,fan_repair_install
+electrician,Tibcon 3.15 MFD Capacitor,fan_repair_install
+electrician,Geyser Installation,geyser_heater
+electrician,Geyser Uninstallation,geyser_heater
+electrician,Room heater repair,geyser_heater
+electrician,Double battery inverter installation,inverter_battery
+electrician,Inverter PCB Card Replacement,inverter_battery
+electrician,Inverter servicing,inverter_battery
+electrician,Single battery inverter installation,inverter_battery
+electrician,Bulb Holder Installation,lights_bulbs
+electrician,Bulbs installation (upto 5 bulbs),lights_bulbs
+electrician,Chandelier installation (more than 6 bulbs),lights_bulbs
+electrician,Chandelier installation (upto 6 bulbs),lights_bulbs
+electrician,Decorative Lights Installation (per 10m),lights_bulbs
+electrician,Decorative Lights Installation (per 15m),lights_bulbs
+electrician,Decorative Lights Installation (per 5m),lights_bulbs
+electrician,Decorative Lights Uninstallation (per 5m),lights_bulbs
+electrician,Decorative light & bed lamp installation,lights_bulbs
+electrician,"Havells 12W 6.29"" LED Light (White)",lights_bulbs
+electrician,"Havells 15W 7.09"" LED Light (White)",lights_bulbs
+electrician,Havells 15W Bulb (White),lights_bulbs
+electrician,"Havells 9W 5.1"" LED Light (White)",lights_bulbs
+electrician,Havells 9W Bulb (White),lights_bulbs
+electrician,Havells B22 Bulb Holder,lights_bulbs
+electrician,Lantern Installation,lights_bulbs
+electrician,Lights Uninstallation (per 20 m),lights_bulbs
+electrician,"Philips 10W 4.33"" LED Light (White)",lights_bulbs
+electrician,Philips 12W Bulb (White),lights_bulbs
+electrician,Philips 14W Bulb (White),lights_bulbs
+electrician,"Philips 15W 5.98"" LED Light (White)",lights_bulbs
+electrician,"Philips 5W 3"" LED Light (White)",lights_bulbs
+electrician,Philips 9W Bulb (White),lights_bulbs
+electrician,Tubelight Installation/Repair,lights_bulbs
+electrician,3 Phase Changeover Switch Installation,mcb_fuse_breaker
+electrician,Double Pole MCB Installation,mcb_fuse_breaker
+electrician,Four Pole MCB Installation,mcb_fuse_breaker
+electrician,Inverter fuse replacement,mcb_fuse_breaker
+electrician,Anchor Heavy/ Light Load Socket,switch_socket_board
+electrician,Anchor Heavy/ Light Load Switch,switch_socket_board
+electrician,Anchor Socket,switch_socket_board
+electrician,Anchor Switch (Penta Design),switch_socket_board
+electrician,Havells Socket,switch_socket_board
+electrician,Havells Switch,switch_socket_board
+electrician,Switch/socket replacement,switch_socket_board
+electrician,Switchboard installation,switch_socket_board
+electrician,Switchboard repair,switch_socket_board
+electrician,Mini home theater installation,tv_home_theater_install
+electrician,TV installation (above 48 inches),tv_home_theater_install
+electrician,TV installation (up to 48 inches),tv_home_theater_install
+electrician,TV uninstallation,tv_home_theater_install
+electrician,New internal wiring (per 5m),wiring
+electrician,New wiring with casing (per 5m),wiring
+electrician,New wiring without casing (per 5m),wiring
+plumber,Balcony drain blockage removal,drain_blockage
+plumber,Drainage pipe blockage removal,drain_blockage
+plumber,Pipeline leakage repair,pipe_leakage
+plumber,Waste pipe leakage,pipe_leakage
+plumber,Connection hose installation,plumbing_fittings_misc
+plumber,Drain cover installation,plumbing_fittings_misc
+plumber,Minor fittings installation,plumbing_fittings_misc
+plumber,Washing machine inlet installation,plumbing_fittings_misc
+plumber,Shower installation (ceiling mounted),shower
+plumber,Shower installation (wall mounted/ hand-held),shower
+plumber,Water Diverter Repair,shower
+plumber,Water saving nozzle,shower
+plumber,2 in 1 bib tap (Low Quality),tap_mixer
+plumber,Extension Nipple Repair,tap_mixer
+plumber,Hot & cold water mixer installation,tap_mixer
+plumber,Hot & cold water mixer repair,tap_mixer
+plumber,Jet Spray (Installation/ Repair),tap_mixer
+plumber,Tap installation,tap_mixer
+plumber,Tap repair,tap_mixer
+plumber,Tap replacement,tap_mixer
+plumber,Floor mounted western toilet replacement,toilet_flush
+plumber,Flush tank repair (concealed),toilet_flush
+plumber,Flush tank repair (external - PVC),toilet_flush
+plumber,Flush tank replacement,toilet_flush
+plumber,Toilet seat cover,toilet_flush
+plumber,Wall mounted western toilet replacement,toilet_flush
+plumber,Western toilet installation (floor mounted),toilet_flush
+plumber,Western toilet installation (wall mounted),toilet_flush
+plumber,Western toilet repair (floor mounted),toilet_flush
+plumber,Wash Basin Leakage Repair,wash_basin
+plumber,Wash basin blockage removal,wash_basin
+plumber,Wash basin installation,wash_basin
+plumber,Motor Repair - Bearings Replacement,water_motor_pump
+plumber,Motor Repair - Capacitor Repair or Replace,water_motor_pump
+plumber,Motor Repair - Impeller,water_motor_pump
+plumber,Motor Repair - Seal,water_motor_pump
+plumber,Motor Repair - Valve Replacement,water_motor_pump
+plumber,Motor Repair - Winding,water_motor_pump
+plumber,Motor air cavity removal,water_motor_pump
+plumber,Motor installation,water_motor_pump
+plumber,Motor replacement,water_motor_pump
+plumber,Overhead Tank Overflow,water_tank
+plumber,Overhead tank cleaning (1000L- 2000L),water_tank
+plumber,Overhead tank cleaning (upto 1000L),water_tank
+plumber,Overhead tank installation (500L-2000L),water_tank
+plumber,Overhead tank installation (upto 500L),water_tank

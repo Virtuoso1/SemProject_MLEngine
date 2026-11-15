@@ -1,0 +1,226 @@
+trade,name_key,name,n_cities,median_price_inr,split
+appliance,"1 meter copper pipe set (with insulation, wire)","1 meter copper pipe set (with insulation, wire)",43,900.0,train
+appliance,ac fan blade,AC fan blade,43,1199.0,test
+appliance,adjust grill locks,Adjust Grill Locks,43,349.0,test
+appliance,adjust pipe and tight compressor screw,Adjust pipe and tight compressor screw,43,349.0,train
+appliance,blower motor replaced,Blower motor replaced,43,2699.0,train
+appliance,blower replaced,Blower replaced,43,1599.0,train
+appliance,bulb,Bulb,43,469.0,train
+appliance,bulb holder,Bulb Holder,43,389.0,train
+appliance,capacitor 10-25 mfd,Capacitor 10-25 mfd,43,749.0,train
+appliance,capacitor 2-5 mfd,Capacitor 2-5 mfd,43,599.0,train
+appliance,capacitor 35-50 mfd,Capacitor 35-50 mfd,43,749.0,train
+appliance,capacitor 50-60 mfd,Capacitor 50-60 mfd,43,749.0,train
+appliance,capillary and filter replaced,Capillary and filter replaced,43,350.0,train
+appliance,cavity sensor,Cavity sensor,43,929.0,train
+appliance,compressor 0.8-1 ton,Compressor 0.8-1 ton,43,6500.0,val
+appliance,compressor 1.5 ton,Compressor 1.5 ton,43,7500.0,train
+appliance,compressor 2 ton,Compressor 2 ton,43,9200.0,train
+appliance,compressor grommets set,Compressor grommets set,43,299.0,train
+appliance,connector wires replaced (1m),Connector wires replaced (1m),43,449.0,train
+appliance,contactor daikin/ o-general,Contactor Daikin/ O-General,43,1949.0,train
+appliance,contactor replaced,Contactor replaced,43,999.0,test
+appliance,convection heater,Convection Heater,43,1159.0,test
+appliance,convert pcb with remote,Convert PCB with remote,43,1500.0,train
+appliance,cooling / condenser coil repair,Cooling / Condenser Coil repair,43,500.0,test
+appliance,copper coil condensor 1 ton split,Copper Coil Condensor 1 ton Split,43,3500.0,train
+appliance,copper coil condensor 1.5 ton split,Copper Coil Condensor 1.5 ton Split,43,4000.0,train
+appliance,copper coil condensor 2 ton split,Copper Coil Condensor 2 ton Split,43,4500.0,train
+appliance,copper cooling coil (split ac),Copper Cooling Coil (Split AC),43,6000.0,train
+appliance,copper cooling coil (window ac),Copper Cooling Coil (Window AC),43,4500.0,train
+appliance,coupler,Coupler,43,529.0,test
+appliance,dead nut (1 pc),Dead nut (1 pc),43,50.0,train
+appliance,deep clean ac service (split),Deep clean AC service (split),43,649.0,train
+appliance,deep clean ac service (window),Deep clean AC service (window),43,549.0,test
+appliance,door hing,Door Hing,43,699.0,train
+appliance,door latch,Door Latch,43,929.0,train
+appliance,door switch,Door Switch,43,649.0,train
+appliance,drain pipe (1m),Drain pipe (1m),43,100.0,train
+appliance,expansion valve replaced,Expansion valve replaced,43,1200.0,test
+appliance,fan blade,Fan Blade,43,419.0,train
+appliance,fan blade metal,Fan Blade Metal,43,699.0,train
+appliance,fan motor,Fan Motor,43,1049.0,train
+appliance,fan motor outdoor,Fan motor outdoor,43,2299.0,test
+appliance,fastner complete set,Fastner complete set,43,200.0,train
+appliance,flair nut replaced,Flair nut replaced,43,150.0,train
+appliance,floor stand,Floor stand,43,750.0,train
+appliance,fuse 5 / 15 amp,Fuse 5 / 15 Amp,43,358.0,train
+appliance,gas charging,Gas Charging,43,2500.0,train
+appliance,glass turn table,Glass Turn table,43,1109.0,train
+appliance,grill cover,Grill Cover,43,1849.0,val
+appliance,grill heater,Grill Heater,43,1049.0,train
+appliance,hv capacitor,HV Capacitor,43,849.0,train
+appliance,hv diode,HV Diode,43,649.0,val
+appliance,hv fuse,HV Fuse,43,549.0,test
+appliance,hv transformer,HV Transformer,43,1999.0,train
+appliance,indoor unit reinstalled,Indoor unit reinstalled,43,699.0,train
+appliance,inverter pcb repaired,Inverter PCB repaired,43,4000.0,train
+appliance,lvt,LVT,43,929.0,train
+appliance,magnetron 4 fins,Magnetron 4 fins,43,1599.0,val
+appliance,magnetron 5 fins,Magnetron 5 Fins,43,1939.0,val
+appliance,magnetron 6 fins,Magnetron 6 Fins,43,2009.0,val
+appliance,mica sheet,Mica Sheet,43,699.0,test
+appliance,non-inverter pcb repaired,Non-Inverter PCB repaired,43,1500.0,train
+appliance,outdoor unit reinstalled,Outdoor unit reinstalled,43,799.0,train
+appliance,pcb new,PCB New,43,2599.0,val
+appliance,pcb repair,PCB Repair,43,1599.0,train
+appliance,pin valve for window ac,Pin Valve for window AC,43,50.0,train
+appliance,power 3 pin plug top,Power 3 Pin Plug Top,43,469.0,train
+appliance,power cord,Power Cord,43,699.0,train
+appliance,replace flap/swing motor,Replace Flap/Swing Motor,43,899.0,train
+appliance,replace lvt,Replace LVT,43,1399.0,train
+appliance,replace sensor,Replace sensor,43,849.0,train
+appliance,roller,Roller,43,599.0,val
+appliance,rubber washer (1 pc),Rubber washer (1 pc),43,50.0,train
+appliance,selector switch,Selector Switch,43,929.0,train
+appliance,service valve replaced (1 pc),Service valve replaced (1 Pc),43,400.0,val
+appliance,sleeves (per piece),Sleeves (per piece),43,50.0,train
+appliance,smart oven grill heater,Smart oven Grill Heater,43,2049.0,test
+appliance,split ac installation,Split AC Installation,43,1999.0,train
+appliance,split ac uninstallation,Split AC Uninstallation,43,649.0,train
+appliance,split ac wall stand,Split AC Wall stand,43,550.0,train
+appliance,stabilizer repair,Stabilizer repair,43,1500.0,train
+appliance,swing blade replaced,Swing blade replaced,43,749.0,val
+appliance,switch membrane / key pad repair,Switch Membrane / Key Pad Repair,43,1799.0,val
+appliance,thermal cut off (tco),Thermal Cut Off (TCO),43,699.0,val
+appliance,tighten/ replace thimble,Tighten/ Replace Thimble,43,399.0,train
+appliance,timer,Timer,43,1299.0,train
+appliance,timer knob,Timer Knob,43,419.0,val
+appliance,turn table motor,Turn Table Motor,43,999.0,test
+appliance,u band replaced (1 pc),U Band replaced (1 pc),43,50.0,train
+appliance,universal back plate,Universal back plate,43,300.0,train
+appliance,universal remote,Universal remote,43,800.0,test
+appliance,water leakage repaired- split ac,Water Leakage Repaired- Split AC,43,599.0,train
+appliance,water leakage repaired- window ac,Water Leakage Repaired- Window AC,43,449.0,test
+appliance,water tray,Water tray,43,700.0,val
+appliance,window ac installation,Window AC Installation,43,799.0,train
+appliance,window ac uninstallation,Window AC Uninstallation,43,399.0,train
+electrician,3 phase changeover switch installation,3 Phase Changeover Switch Installation,41,319.0,val
+electrician,ac switchbox installation,AC switchbox installation,41,329.0,train
+electrician,anchor heavy/ light load socket,Anchor Heavy/ Light Load Socket,1,192.5,train
+electrician,anchor heavy/ light load switch,Anchor Heavy/ Light Load Switch,1,90.0,train
+electrician,anchor socket,Anchor Socket,1,100.0,val
+electrician,anchor switch (penta design),Anchor Switch (Penta Design),1,35.0,train
+electrician,bulb holder installation,Bulb Holder Installation,41,110.0,test
+electrician,bulbs installation (upto 5 bulbs),Bulbs installation (upto 5 bulbs),42,129.0,test
+electrician,ceiling fan installation,Ceiling Fan Installation,41,129.0,train
+electrician,ceiling fan regulator replacement,Ceiling fan regulator replacement,42,79.0,train
+electrician,chandelier installation (more than 6 bulbs),Chandelier installation (more than 6 bulbs),41,910.0,train
+electrician,chandelier installation (upto 6 bulbs),Chandelier installation (upto 6 bulbs),41,459.0,test
+electrician,decorative ceiling fan installation,Decorative ceiling fan installation,42,429.0,train
+electrician,decorative light & bed lamp installation,Decorative light & bed lamp installation,41,169.0,train
+electrician,decorative lights installation (per 10m),Decorative Lights Installation (per 10m),41,199.0,train
+electrician,decorative lights installation (per 15m),Decorative Lights Installation (per 15m),41,279.0,train
+electrician,decorative lights installation (per 5m),Decorative Lights Installation (per 5m),41,119.0,train
+electrician,decorative lights uninstallation (per 5m),Decorative Lights Uninstallation (per 5m),41,69.0,train
+electrician,door bell installation,Door bell installation,41,79.0,train
+electrician,door bell replacement,Door bell replacement,41,79.0,train
+electrician,double battery inverter installation,Double battery inverter installation,41,509.0,train
+electrician,double pole mcb installation,Double Pole MCB Installation,41,150.0,test
+electrician,fan coil repair,Fan Coil Repair,41,449.0,val
+electrician,fan repair,Fan repair,41,189.0,train
+electrician,fan replacement,Fan replacement,41,199.0,train
+electrician,fan uninstallation,Fan uninstallation,41,110.0,train
+electrician,four pole mcb installation,Four Pole MCB Installation,41,299.0,val
+electrician,geyser installation,Geyser Installation,41,499.0,test
+electrician,geyser uninstallation,Geyser Uninstallation,41,369.0,train
+electrician,"havells 12w 6.29"" led light (white)","Havells 12W 6.29"" LED Light (White)",1,760.0,train
+electrician,"havells 15w 7.09"" led light (white)","Havells 15W 7.09"" LED Light (White)",1,910.0,train
+electrician,havells 15w bulb (white),Havells 15W Bulb (White),1,280.0,train
+electrician,havells 2.5 mfd capacitor,Havells 2.5 MFD Capacitor,1,64.0,val
+electrician,havells 3.15 mfd capacitor,Havells 3.15 MFD Capacitor,1,69.0,test
+electrician,"havells 9w 5.1"" led light (white)","Havells 9W 5.1"" LED Light (White)",1,690.0,val
+electrician,havells 9w bulb (white),Havells 9W Bulb (White),1,140.0,train
+electrician,havells b22 bulb holder,Havells B22 Bulb Holder,1,80.0,test
+electrician,havells regulator (fabia design),Havells Regulator (Fabia Design),1,360.0,train
+electrician,havells regulator (reo design),Havells Regulator (Reo Design),1,245.0,train
+electrician,havells socket,Havells Socket,1,180.0,test
+electrician,havells socket (oro design),Havells Socket (Oro Design),1,165.0,val
+electrician,havells switch,Havells Switch,1,145.0,train
+electrician,inverter fuse replacement,Inverter fuse replacement,41,129.0,train
+electrician,inverter pcb card replacement,Inverter PCB Card Replacement,41,269.0,val
+electrician,inverter servicing,Inverter servicing,41,249.0,train
+electrician,lantern installation,Lantern Installation,41,148.0,train
+electrician,lights uninstallation (per 20 m),Lights Uninstallation (per 20 m),41,99.0,train
+electrician,mcb fuse replacement,MCB fuse replacement,41,100.0,test
+electrician,mini home theater installation,Mini home theater installation,41,279.0,train
+electrician,new internal wiring (per 5m),New internal wiring (per 5m),41,210.0,train
+electrician,new wiring with casing (per 5m),New wiring with casing (per 5m),41,239.0,train
+electrician,new wiring without casing (per 5m),New wiring without casing (per 5m),41,119.0,train
+electrician,"philips 10w 4.33"" led light (white)","Philips 10W 4.33"" LED Light (White)",1,635.0,train
+electrician,philips 12w bulb (white),Philips 12W Bulb (White),1,240.0,train
+electrician,philips 14w bulb (white),Philips 14W Bulb (White),1,280.0,train
+electrician,"philips 15w 5.98"" led light (white)","Philips 15W 5.98"" LED Light (White)",1,770.0,train
+electrician,"philips 5w 3"" led light (white)","Philips 5W 3"" LED Light (White)",1,405.0,train
+electrician,philips 9w bulb (white),Philips 9W Bulb (White),1,140.0,train
+electrician,polycab 0.5w bulb (white),Polycab 0.5W Bulb (White),1,60.0,val
+electrician,replace cfl to led,Replace CFL to LED,41,169.0,train
+electrician,room heater repair,Room heater repair,41,279.0,train
+electrician,single battery inverter installation,Single battery inverter installation,41,429.0,val
+electrician,single pole mcb installation,Single pole MCB installation,41,119.0,train
+electrician,stabilizer installation,Stabilizer installation,41,179.0,test
+electrician,sub meter installation,Sub meter installation,41,279.0,val
+electrician,switch/socket replacement,Switch/socket replacement,42,89.0,train
+electrician,switchboard installation,Switchboard installation,41,279.0,train
+electrician,switchboard repair,Switchboard repair,41,110.0,train
+electrician,syska 0.5w bulb (white),Syska 0.5W Bulb (White),1,45.0,train
+electrician,syska 12w bulb (white),Syska 12W Bulb (White),1,210.0,train
+electrician,syska 15w bulb (white),Syska 15W Bulb (White),1,240.0,train
+electrician,syska 9w bulb (white),Syska 9W Bulb (White),1,140.0,train
+electrician,tibcon 2.5 mfd capacitor,Tibcon 2.5 MFD Capacitor,1,59.0,train
+electrician,tibcon 3.15 mfd capacitor,Tibcon 3.15 MFD Capacitor,1,64.0,train
+electrician,triple pole mcb installation,Triple Pole MCB Installation,41,239.0,train
+electrician,tubelight installation/repair,Tubelight Installation/Repair,41,110.0,val
+electrician,tv installation (above 48 inches),TV installation (above 48 inches),41,599.0,test
+electrician,tv installation (up to 48 inches),TV installation (up to 48 inches),41,499.0,test
+electrician,tv uninstallation,TV uninstallation,41,179.0,train
+plumber,2 in 1 bib tap (low quality),2 in 1 bib tap (Low Quality),43,715.0,train
+plumber,balcony drain blockage removal,Balcony drain blockage removal,43,269.0,val
+plumber,connection hose installation,Connection hose installation,43,119.0,val
+plumber,drain cover installation,Drain cover installation,43,149.0,train
+plumber,drainage pipe blockage removal,Drainage pipe blockage removal,43,369.0,train
+plumber,extension nipple repair,Extension Nipple Repair,43,99.0,train
+plumber,floor mounted western toilet replacement,Floor mounted western toilet replacement,43,1699.0,train
+plumber,flush tank repair (concealed),Flush tank repair (concealed),43,269.0,train
+plumber,flush tank repair (external - pvc),Flush tank repair (external - PVC),43,139.0,train
+plumber,flush tank replacement,Flush tank replacement,43,499.0,train
+plumber,hot & cold water mixer installation,Hot & cold water mixer installation,43,419.0,train
+plumber,hot & cold water mixer repair,Hot & cold water mixer repair,43,269.0,test
+plumber,indian toilet installation,Indian toilet installation,43,1699.0,train
+plumber,jet spray (installation/ repair),Jet Spray (Installation/ Repair),43,119.0,train
+plumber,minor fittings installation,Minor fittings installation,43,100.0,test
+plumber,motor air cavity removal,Motor air cavity removal,43,148.0,train
+plumber,motor installation,Motor installation,43,419.0,test
+plumber,motor repair - bearings replacement,Motor Repair - Bearings Replacement,43,449.0,train
+plumber,motor repair - capacitor repair or replace,Motor Repair - Capacitor Repair or Replace,43,119.0,train
+plumber,motor repair - impeller,Motor Repair - Impeller,43,749.0,train
+plumber,motor repair - seal,Motor Repair - Seal,43,169.0,train
+plumber,motor repair - valve replacement,Motor Repair - Valve Replacement,43,119.0,train
+plumber,motor repair - winding,Motor Repair - Winding,43,599.0,train
+plumber,motor replacement,Motor replacement,43,499.0,test
+plumber,overhead tank cleaning (1000l- 2000l),Overhead tank cleaning (1000L- 2000L),43,1199.0,train
+plumber,overhead tank cleaning (upto 1000l),Overhead tank cleaning (upto 1000L),43,999.0,train
+plumber,overhead tank installation (500l-2000l),Overhead tank installation (500L-2000L),43,1199.0,train
+plumber,overhead tank installation (upto 500l),Overhead tank installation (upto 500L),43,599.0,train
+plumber,overhead tank overflow,Overhead Tank Overflow,43,169.0,train
+plumber,pipeline leakage repair,Pipeline leakage repair,43,269.0,train
+plumber,shower installation (ceiling mounted),Shower installation (ceiling mounted),43,169.0,train
+plumber,shower installation (wall mounted/ hand-held),Shower installation (wall mounted/ hand-held),43,139.0,test
+plumber,tap installation,Tap installation,43,100.0,train
+plumber,tap repair,Tap repair,43,100.0,train
+plumber,tap replacement,Tap replacement,43,119.0,train
+plumber,toilet seat cover,Toilet seat cover,43,119.0,train
+plumber,underground tank cleaning (1000l-1500l),Underground tank cleaning (1000L-1500L),43,1299.0,val
+plumber,underground tank cleaning (1500l-3000l),Underground tank cleaning (1500L-3000L),43,1699.0,train
+plumber,wall mounted western toilet replacement,Wall mounted western toilet replacement,43,1899.0,val
+plumber,wash basin blockage removal,Wash basin blockage removal,43,169.0,train
+plumber,wash basin installation,Wash basin installation,43,419.0,val
+plumber,wash basin leakage repair,Wash Basin Leakage Repair,43,169.0,val
+plumber,washing machine inlet installation,Washing machine inlet installation,43,159.0,train
+plumber,waste pipe leakage,Waste pipe leakage,43,119.0,val
+plumber,water diverter repair,Water Diverter Repair,43,219.0,train
+plumber,water meter installation,Water meter installation,43,369.0,train
+plumber,water saving nozzle,Water saving nozzle,43,119.0,val
+plumber,western toilet installation (floor mounted),Western toilet installation (floor mounted),43,1499.0,train
+plumber,western toilet installation (wall mounted),Western toilet installation (wall mounted),43,1799.0,test
+plumber,western toilet repair (floor mounted),Western toilet repair (floor mounted),43,699.0,test

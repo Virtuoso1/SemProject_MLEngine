@@ -1,0 +1,650 @@
+trade,group,text,split
+appliance,ac_cooling_coil,AC coil needs repair,train
+appliance,ac_cooling_coil,my AC condenser coil is damaged,train
+appliance,ac_cooling_coil,AC copper coil needs replacing,train
+appliance,ac_cooling_coil,AC coil is frozen with ice on it,train
+appliance,ac_cooling_coil,koili ya AC imeharibika,train
+appliance,ac_cooling_coil,AC yangu ina shida na koili ya kupoza,train
+appliance,ac_cooling_coil,naomba koili mpya ya AC,train
+appliance,ac_cooling_coil,AC condenser coil imeoza,train
+appliance,ac_cooling_coil,koili ya AC needs repair please,train
+appliance,ac_cooling_coil,the cooling coil in my split AC is corroded,test
+appliance,ac_cooling_coil,koili ya kiyoyozi imevuja,test
+appliance,ac_cooling_coil,"AC yangu coil ni mbaya, naomba replacement",test
+appliance,ac_deep_clean,I need my AC deep cleaned,train
+appliance,ac_deep_clean,AC service and cleaning please,train
+appliance,ac_deep_clean,my AC has not been serviced in a year and smells bad,train
+appliance,ac_deep_clean,AC cleaning service for my split unit,train
+appliance,ac_deep_clean,nataka AC yangu isafishwe,train
+appliance,ac_deep_clean,huduma ya kusafisha AC,train
+appliance,ac_deep_clean,"AC inanuka, inahitaji kusafishwa",train
+appliance,ac_deep_clean,"need AC servicing, ni chafu sana",train
+appliance,ac_deep_clean,AC service na cleaning please,train
+appliance,ac_deep_clean,can someone come clean and service my air conditioner,test
+appliance,ac_deep_clean,kiyoyozi changu kinahitaji usafi na huduma,test
+appliance,ac_deep_clean,"AC imejaa vumbi, naomba cleaning",test
+appliance,ac_electrical_pcb,my AC will not switch on,train
+appliance,ac_electrical_pcb,AC remote not working,train
+appliance,ac_electrical_pcb,AC board or PCB is faulty,train
+appliance,ac_electrical_pcb,the AC capacitor is blown,train
+appliance,ac_electrical_pcb,AC haiwashi kabisa,train
+appliance,ac_electrical_pcb,remoti ya AC imeharibika,train
+appliance,ac_electrical_pcb,bodi ya AC ina hitilafu,train
+appliance,ac_electrical_pcb,AC capacitor imeungua,train
+appliance,ac_electrical_pcb,"AC yangu haiwaki, I think it's the PCB",train
+appliance,ac_electrical_pcb,"AC remote haifanyi kazi, I need a new one",train
+appliance,ac_electrical_pcb,"my air conditioner is completely dead, no lights",test
+appliance,ac_electrical_pcb,kiyoyozi hakijibu remoti wala swichi,test
+appliance,ac_electrical_pcb,"AC imezimika yenyewe, electrical fault I think",test
+appliance,ac_fan_blower,AC fan is making noise,train
+appliance,ac_fan_blower,the outdoor unit fan is not spinning,train
+appliance,ac_fan_blower,AC blower is broken,train
+appliance,ac_fan_blower,AC flap is stuck and won't swing,train
+appliance,ac_fan_blower,feni ya AC inapiga kelele,train
+appliance,ac_fan_blower,feni ya nje ya AC haizunguki,train
+appliance,ac_fan_blower,AC haipulizi hewa vizuri,train
+appliance,ac_fan_blower,AC fan motor imeharibika,train
+appliance,ac_fan_blower,"AC blower haifanyi, need a fundi",train
+appliance,ac_fan_blower,the fan of my AC outside has stopped turning,test
+appliance,ac_fan_blower,AC inapiga kelele kama feni imevunjika,test
+appliance,ac_fan_blower,AC flap haifunguki properly,test
+appliance,ac_gas_compressor,"AC is not cooling, needs gas",train
+appliance,ac_gas_compressor,AC gas refill please,train
+appliance,ac_gas_compressor,my AC compressor is faulty,train
+appliance,ac_gas_compressor,AC blows warm air,train
+appliance,ac_gas_compressor,"AC haipoi, inahitaji gesi",train
+appliance,ac_gas_compressor,nataka kujaza gesi kwenye AC,train
+appliance,ac_gas_compressor,kompresa ya AC ina shida,train
+appliance,ac_gas_compressor,AC inapuliza hewa ya joto,train
+appliance,ac_gas_compressor,"AC haipoozi, I think it needs gas refill",train
+appliance,ac_gas_compressor,compressor ya AC imeharibika,train
+appliance,ac_gas_compressor,my air conditioner runs but the room never gets cold,test
+appliance,ac_gas_compressor,kiyoyozi kinawaka lakini hakipoi,test
+appliance,ac_gas_compressor,"AC inaleta joto, maybe gas imeisha",test
+appliance,ac_grill_misc,AC grill is broken,train
+appliance,ac_grill_misc,the grill cover of my AC fell off,train
+appliance,ac_grill_misc,AC grill lock is loose,train
+appliance,ac_grill_misc,need a replacement grill for my AC unit,train
+appliance,ac_grill_misc,grili ya AC imevunjika,train
+appliance,ac_grill_misc,kifuniko cha AC kimedondoka,train
+appliance,ac_grill_misc,naomba grili mpya ya AC,train
+appliance,ac_grill_misc,AC grill imelegea,train
+appliance,ac_grill_misc,"AC cover imevunjika, need replacement",train
+appliance,ac_grill_misc,the front panel of my air conditioner is loose,test
+appliance,ac_grill_misc,kifuniko cha mbele cha kiyoyozi kimelegea,test
+appliance,ac_grill_misc,AC grill lock haishiki,test
+appliance,ac_install_uninstall,I need an AC installed,train
+appliance,ac_install_uninstall,remove and reinstall my split AC,train
+appliance,ac_install_uninstall,install a new split AC on the wall,train
+appliance,ac_install_uninstall,AC outdoor unit needs a stand,train
+appliance,ac_install_uninstall,nataka AC iwekwe,train
+appliance,ac_install_uninstall,ondoa AC na uiweke upya,train
+appliance,ac_install_uninstall,fundi wa kuweka AC mpya,train
+appliance,ac_install_uninstall,stand ya kuweka AC ya nje,train
+appliance,ac_install_uninstall,"need AC installation, nimenunua mpya",train
+appliance,ac_install_uninstall,"AC relocation, nahama nyumba",train
+appliance,ac_install_uninstall,I bought a new air conditioner and need it mounted,test
+appliance,ac_install_uninstall,naomba fundi aweke kiyoyozi ukutani,test
+appliance,ac_install_uninstall,uninstall AC yangu kwa sababu ya moving,test
+appliance,ac_water_leakage,my AC is dripping water inside,train
+appliance,ac_water_leakage,water leaking from my AC,train
+appliance,ac_water_leakage,AC drain pipe is blocked and leaking,train
+appliance,ac_water_leakage,AC water tray is full,train
+appliance,ac_water_leakage,AC inavuja maji ndani,train
+appliance,ac_water_leakage,maji yanatoka kwenye AC,train
+appliance,ac_water_leakage,bomba la maji ya AC limeziba,train
+appliance,ac_water_leakage,AC inadondosha maji,train
+appliance,ac_water_leakage,"AC yangu ina leak, maji kwa floor",train
+appliance,ac_water_leakage,there is a puddle under my split AC,test
+appliance,ac_water_leakage,kiyoyozi changu kinamwaga maji sakafuni,test
+appliance,ac_water_leakage,"AC inatoka maji, drain imeziba labda",test
+appliance,microwave_controls,microwave buttons not working,train
+appliance,microwave_controls,microwave display is blank,train
+appliance,microwave_controls,microwave timer is stuck,train
+appliance,microwave_controls,microwave keypad is unresponsive,train
+appliance,microwave_controls,vitufe vya microwave haviitikii,train
+appliance,microwave_controls,microwave haionyeshi kitu kwenye skrini,train
+appliance,microwave_controls,timer ya microwave imekwama,train
+appliance,microwave_controls,microwave board is faulty,train
+appliance,microwave_controls,microwave buttons hazifanyi kazi,train
+appliance,microwave_controls,I press start on my microwave and nothing happens,test
+appliance,microwave_controls,microwave haijibu ninapobonyeza,test
+appliance,microwave_controls,"microwave panel imekufa, display is off",test
+appliance,microwave_door,microwave door won't close,train
+appliance,microwave_door,microwave door latch is broken,train
+appliance,microwave_door,microwave door hinge snapped,train
+appliance,microwave_door,microwave won't start because the door is open,train
+appliance,microwave_door,mlango wa microwave haufungi,train
+appliance,microwave_door,kitasa cha mlango wa microwave kimevunjika,train
+appliance,microwave_door,bawaba ya microwave imevunjika,train
+appliance,microwave_door,microwave door imelegea,train
+appliance,microwave_door,mlango wa microwave won't latch,train
+appliance,microwave_door,the door on my microwave hangs loose,test
+appliance,microwave_door,mlango wa microwave haushiki,test
+appliance,microwave_door,microwave haiwaki kwa sababu door haifungi,test
+appliance,microwave_fan_light_misc,microwave light bulb is out,train
+appliance,microwave_fan_light_misc,microwave fan is noisy,train
+appliance,microwave_fan_light_misc,microwave power cord is damaged,train
+appliance,microwave_fan_light_misc,the plug of my microwave is burnt,train
+appliance,microwave_fan_light_misc,taa ya microwave imezimika,train
+appliance,microwave_fan_light_misc,feni ya microwave inapiga kelele,train
+appliance,microwave_fan_light_misc,waya wa microwave umeharibika,train
+appliance,microwave_fan_light_misc,"microwave inapiga kelele, fan problem",train
+appliance,microwave_fan_light_misc,balbu ya microwave needs replacing,train
+appliance,microwave_fan_light_misc,the little lamp inside my microwave doesn't come on,test
+appliance,microwave_fan_light_misc,kamba ya umeme ya microwave imeungua,test
+appliance,microwave_fan_light_misc,microwave cooling fan ni noisy sana,test
+appliance,microwave_not_heating,my microwave runs but doesn't heat,train
+appliance,microwave_not_heating,microwave not heating food,train
+appliance,microwave_not_heating,microwave is cold inside,train
+appliance,microwave_not_heating,my microwave grill element is not working,train
+appliance,microwave_not_heating,microwave haipashi chakula joto,train
+appliance,microwave_not_heating,microwave inawaka lakini haipashi,train
+appliance,microwave_not_heating,kipasha joto cha grill cha microwave hakifanyi,train
+appliance,microwave_not_heating,"microwave haiwashi joto, food baki baridi",train
+appliance,microwave_not_heating,microwave grill haifanyi kazi,train
+appliance,microwave_not_heating,the food stays cold even after five minutes in the microwave,test
+appliance,microwave_not_heating,microwave inazunguka lakini chakula bado baridi,test
+appliance,microwave_not_heating,"oven yangu haina joto, only the light comes on",test
+appliance,microwave_turntable,microwave plate is not rotating,train
+appliance,microwave_turntable,microwave turntable is stuck,train
+appliance,microwave_turntable,the glass tray in my microwave is broken,train
+appliance,microwave_turntable,microwave turntable motor is dead,train
+appliance,microwave_turntable,sahani ya microwave haizunguki,train
+appliance,microwave_turntable,trei ya kioo ya microwave imevunjika,train
+appliance,microwave_turntable,motor ya sahani ya microwave imeharibika,train
+appliance,microwave_turntable,microwave plate haizunguki,train
+appliance,microwave_turntable,glass tray ya microwave imepasuka,train
+appliance,microwave_turntable,food heats unevenly because the tray does not turn,test
+appliance,microwave_turntable,sahani ndani ya microwave imekwama,test
+appliance,microwave_turntable,"microwave turntable imevunjika, need replacement",test
+electrician,doorbell,install a doorbell,train
+electrician,doorbell,my doorbell is not ringing,train
+electrician,doorbell,replace the doorbell at my gate,train
+electrician,doorbell,doorbell button is stuck,train
+electrician,doorbell,kengele ya mlango haipigi,train
+electrician,doorbell,weka kengele ya mlango,train
+electrician,doorbell,kengele ya geti imeharibika,train
+electrician,doorbell,doorbell haifanyi kazi,train
+electrician,doorbell,naomba kuweka doorbell mpya,train
+electrician,doorbell,visitors press the bell but nothing rings inside,test
+electrician,doorbell,kengele ya mlango imekufa,test
+electrician,doorbell,fundi wa kuweka doorbell kwenye gate,test
+electrician,fan_repair_install,ceiling fan not spinning,train
+electrician,fan_repair_install,install a ceiling fan,train
+electrician,fan_repair_install,my fan makes noise and wobbles,train
+electrician,fan_repair_install,fan regulator is faulty,train
+electrician,fan_repair_install,feni ya dari haizunguki,train
+electrician,fan_repair_install,nataka feni iwekwe,train
+electrician,fan_repair_install,feni inapiga kelele,train
+electrician,fan_repair_install,regulator ya feni imeharibika,train
+electrician,fan_repair_install,"feni yangu is slow, needs repair",train
+electrician,fan_repair_install,ceiling fan installation tafadhali,train
+electrician,fan_repair_install,the fan in my bedroom only spins when pushed,test
+electrician,fan_repair_install,feni ya chumbani imekufa,test
+electrician,fan_repair_install,"fan hairuki kwa speed zote, regulator labda",test
+electrician,geyser_heater,install a water heater,train
+electrician,geyser_heater,my geyser is not heating,train
+electrician,geyser_heater,remove old water heater,train
+electrician,geyser_heater,room heater is not working,train
+electrician,geyser_heater,weka geyser bafuni,train
+electrician,geyser_heater,geyser yangu haipashi maji,train
+electrician,geyser_heater,hita ya maji imeharibika,train
+electrician,geyser_heater,"water heater haifanyi, maji ni baridi",train
+electrician,geyser_heater,nataka geyser mpya iwekwe,train
+electrician,geyser_heater,hot water is not coming out in my bathroom,test
+electrician,geyser_heater,maji ya moto hayatoki bafuni,test
+electrician,geyser_heater,"my heater ina shida, haiwashi",test
+electrician,inverter_battery,install an inverter and battery,train
+electrician,inverter_battery,my inverter is not charging,train
+electrician,inverter_battery,inverter battery needs servicing,train
+electrician,inverter_battery,backup power system installation,train
+electrician,inverter_battery,weka inverter na betri,train
+electrician,inverter_battery,inverter yangu haichaji,train
+electrician,inverter_battery,betri ya inverter imeharibika,train
+electrician,inverter_battery,UPS haifanyi wakati stima inakatika,train
+electrician,inverter_battery,"inverter installation, nina betri moja",train
+electrician,inverter_battery,when power goes off my backup does not come on,test
+electrician,inverter_battery,betri ya akiba haishiki chaji,test
+electrician,inverter_battery,"inverter beeps tu, haitoi umeme",test
+electrician,lights_bulbs,change a bulb,train
+electrician,lights_bulbs,install LED lights in my living room,train
+electrician,lights_bulbs,my tube light is flickering,train
+electrician,lights_bulbs,install a chandelier,train
+electrician,lights_bulbs,balbu imeungua,train
+electrician,lights_bulbs,weka taa za LED sebuleni,train
+electrician,lights_bulbs,taa ya chumba haiwaki,train
+electrician,lights_bulbs,weka chandelier,train
+electrician,lights_bulbs,lights zangu zinawaka na kuzima,train
+electrician,lights_bulbs,"tubelight needs replacement, imeungua",train
+electrician,lights_bulbs,the lamp in the hallway burnt out,test
+electrician,lights_bulbs,taa za nje hazifanyi kazi,test
+electrician,lights_bulbs,need decorative lights zimewekwe on my balcony,test
+electrician,mcb_fuse_breaker,my circuit breaker keeps tripping,train
+electrician,mcb_fuse_breaker,install an MCB in the distribution board,train
+electrician,mcb_fuse_breaker,fuse keeps blowing,train
+electrician,mcb_fuse_breaker,replace a faulty breaker,train
+electrician,mcb_fuse_breaker,main switch inakatika kila mara,train
+electrician,mcb_fuse_breaker,weka MCB kwenye board,train
+electrician,mcb_fuse_breaker,fuse inaungua mara kwa mara,train
+electrician,mcb_fuse_breaker,breaker imeharibika,train
+electrician,mcb_fuse_breaker,"breaker inatrip, power inakatika",train
+electrician,mcb_fuse_breaker,need changeover switch kwa generator,train
+electrician,mcb_fuse_breaker,power cuts off in the house whenever I use the kettle,test
+electrician,mcb_fuse_breaker,stima inakatika nikiwasha vifaa vingi,test
+electrician,mcb_fuse_breaker,"distribution board ina shida, fuse imeungua",test
+electrician,switch_socket_board,socket is not working,train
+electrician,switch_socket_board,replace a broken switch,train
+electrician,switch_socket_board,switchboard is sparking,train
+electrician,switch_socket_board,install extra sockets in the kitchen,train
+electrician,switch_socket_board,soketi haifanyi kazi,train
+electrician,switch_socket_board,swichi imevunjika,train
+electrician,switch_socket_board,swichi bodi inatoa cheche,train
+electrician,switch_socket_board,weka soketi zaidi jikoni,train
+electrician,switch_socket_board,plug socket imeungua,train
+electrician,switch_socket_board,switch ya taa inashika moto,train
+electrician,switch_socket_board,the wall outlet in my bedroom has no power,test
+electrician,switch_socket_board,soketi ukutani imeyeyuka,test
+electrician,switch_socket_board,"switchboard ina shida, naomba fundi",test
+electrician,tv_home_theater_install,mount my TV on the wall,train
+electrician,tv_home_theater_install,install a TV and speakers,train
+electrician,tv_home_theater_install,TV wall mounting service,train
+electrician,tv_home_theater_install,set up a home theatre,train
+electrician,tv_home_theater_install,weka TV ukutani,train
+electrician,tv_home_theater_install,fundi wa kuning'iniza TV,train
+electrician,tv_home_theater_install,weka mfumo wa home theatre,train
+electrician,tv_home_theater_install,"TV mounting, ni 55 inch",train
+electrician,tv_home_theater_install,naomba TV iwekwe ukutani na speakers,train
+electrician,tv_home_theater_install,bought a big television and need it hung up,test
+electrician,tv_home_theater_install,"nimenunua TV mpya, naomba iwekwe",test
+electrician,tv_home_theater_install,"remove TV from wall, tunahama",test
+electrician,wiring,new house wiring,train
+electrician,wiring,add new wiring to a room,train
+electrician,wiring,rewire my house,train
+electrician,wiring,run cables for new sockets,train
+electrician,wiring,wiring ya nyumba mpya,train
+electrician,wiring,ongeza waya chumbani,train
+electrician,wiring,badilisha waya zote za nyumba,train
+electrician,wiring,waya mpya kwa chumba kipya,train
+electrician,wiring,"need new wiring, nyumba ni mpya",train
+electrician,wiring,wiring with casing kwa extension,train
+electrician,wiring,I'm building an extension and need electrics put in,test
+electrician,wiring,nataka kuweka waya kwenye nyumba nzima,test
+electrician,wiring,"rewiring ya old house, waya ni za zamani",test
+plumber,drain_blockage,my drain is blocked,train
+plumber,drain_blockage,clear a blocked drainage pipe,train
+plumber,drain_blockage,balcony drain is clogged,train
+plumber,drain_blockage,water not draining outside,train
+plumber,drain_blockage,mfereji umeziba,train
+plumber,drain_blockage,maji hayatoki kwenye drain,train
+plumber,drain_blockage,safisha bomba la maji machafu,train
+plumber,drain_blockage,drain ya balcony imeziba,train
+plumber,drain_blockage,"drainage imeziba, harufu mbaya",train
+plumber,drain_blockage,blocked drain nje ya nyumba,train
+plumber,drain_blockage,standing water outside the house will not go away,test
+plumber,drain_blockage,mfereji wa nje umejaa,test
+plumber,drain_blockage,"drain pipe imeziba, maji yanarudi",test
+plumber,pipe_leakage,there is a leaking pipe in the wall,train
+plumber,pipe_leakage,water pipe is burst,train
+plumber,pipe_leakage,waste pipe is leaking,train
+plumber,pipe_leakage,pipeline leakage repair,train
+plumber,pipe_leakage,bomba limepasuka ukutani,train
+plumber,pipe_leakage,bomba la maji linavuja,train
+plumber,pipe_leakage,bomba la maji taka linavuja,train
+plumber,pipe_leakage,"pipe imepasuka, maji kila mahali",train
+plumber,pipe_leakage,"water pipe leak, bill ni juu",train
+plumber,pipe_leakage,wet patch on the wall and water bill has shot up,test
+plumber,pipe_leakage,maji yanavuja chini ya sakafu,test
+plumber,pipe_leakage,"bomba linatoa maji, naomba fundi haraka",test
+plumber,plumbing_fittings_misc,connect my washing machine water inlet,train
+plumber,plumbing_fittings_misc,install a hose connection,train
+plumber,plumbing_fittings_misc,fit a drain cover,train
+plumber,plumbing_fittings_misc,minor plumbing fittings,train
+plumber,plumbing_fittings_misc,weka mashine ya kufua kwa maji,train
+plumber,plumbing_fittings_misc,weka hosepipe,train
+plumber,plumbing_fittings_misc,weka kifuniko cha sinki,train
+plumber,plumbing_fittings_misc,"washing machine connection, nimenunua mpya",train
+plumber,plumbing_fittings_misc,"small plumbing job, fittings tu",train
+plumber,plumbing_fittings_misc,new washer needs to be plumbed in,test
+plumber,plumbing_fittings_misc,nataka fundi aunganishe mashine ya kufua,test
+plumber,plumbing_fittings_misc,"hose connection ya sink, small job",test
+plumber,shower,install a shower,train
+plumber,shower,my shower has low water pressure,train
+plumber,shower,replace shower head,train
+plumber,shower,shower diverter is broken,train
+plumber,shower,weka bafu ya shower,train
+plumber,shower,shower haitoi maji vizuri,train
+plumber,shower,badilisha kichwa cha shower,train
+plumber,shower,shower diverter imeharibika,train
+plumber,shower,"nataka shower mpya, wall mounted",train
+plumber,shower,water barely trickles out of the shower,test
+plumber,shower,maji ya shower ni kidogo,test
+plumber,shower,fit a rain shower kwa bathroom,test
+plumber,tap_mixer,my tap is leaking,train
+plumber,tap_mixer,replace a kitchen tap,train
+plumber,tap_mixer,install a mixer tap,train
+plumber,tap_mixer,tap handle is broken,train
+plumber,tap_mixer,bomba la sinki linavuja,train
+plumber,tap_mixer,badilisha bomba la jikoni,train
+plumber,tap_mixer,weka mixer ya maji ya moto na baridi,train
+plumber,tap_mixer,bomba imevunjika,train
+plumber,tap_mixer,"tap inadondosha maji, naomba kubadilisha",train
+plumber,tap_mixer,the faucet keeps dripping all night,test
+plumber,tap_mixer,bomba la bafuni halifungi,test
+plumber,tap_mixer,"mixer tap needs repair, maji ya moto hayatoki",test
+plumber,toilet_flush,toilet won't flush,train
+plumber,toilet_flush,install a new toilet,train
+plumber,toilet_flush,toilet cistern keeps running,train
+plumber,toilet_flush,replace toilet seat,train
+plumber,toilet_flush,choo hakitoi maji,train
+plumber,toilet_flush,weka choo kipya,train
+plumber,toilet_flush,tanki la choo linavuja,train
+plumber,toilet_flush,badilisha kiti cha choo,train
+plumber,toilet_flush,toilet flush haifanyi kazi,train
+plumber,toilet_flush,cistern ya choo imeharibika,train
+plumber,toilet_flush,my loo keeps running after flushing,test
+plumber,toilet_flush,choo kimeziba na hakifanyi kazi,test
+plumber,toilet_flush,need a western toilet iwekwe kwenye bathroom,test
+plumber,wash_basin,install a wash basin,train
+plumber,wash_basin,wash basin is leaking,train
+plumber,wash_basin,my basin is blocked,train
+plumber,wash_basin,water is not draining from the sink,train
+plumber,wash_basin,weka sinki ya kuoshea mikono,train
+plumber,wash_basin,sinki ya bafuni inavuja,train
+plumber,wash_basin,sinki imeziba,train
+plumber,wash_basin,maji hayashuki kwenye sinki,train
+plumber,wash_basin,"basin imeziba, maji yamejaa",train
+plumber,wash_basin,wash basin installation bafuni,train
+plumber,wash_basin,the bathroom sink drains very slowly,test
+plumber,wash_basin,sinki ya bafuni inamwaga maji chini,test
+plumber,wash_basin,"new basin needs to be fitted, tafadhali",test
+plumber,water_motor_pump,my water pump is not working,train
+plumber,water_motor_pump,water pump makes noise,train
+plumber,water_motor_pump,install a water motor,train
+plumber,water_motor_pump,replace pump motor,train
+plumber,water_motor_pump,pampu ya maji haifanyi kazi,train
+plumber,water_motor_pump,pampu inapiga kelele,train
+plumber,water_motor_pump,weka pampu mpya ya maji,train
+plumber,water_motor_pump,motor ya maji imeungua,train
+plumber,water_motor_pump,water pump haivuti maji,train
+plumber,water_motor_pump,pampu ya tank imeharibika,train
+plumber,water_motor_pump,water is not getting up to the tank,test
+plumber,water_motor_pump,pampu haivuti maji kwenda juu,test
+plumber,water_motor_pump,"booster pump ina shida, motor imeungua",test
+plumber,water_tank,clean my water tank,train
+plumber,water_tank,install an overhead tank,train
+plumber,water_tank,water tank is overflowing,train
+plumber,water_tank,water tank needs cleaning,train
+plumber,water_tank,safisha tanki la maji,train
+plumber,water_tank,weka tanki la maji juu ya paa,train
+plumber,water_tank,tanki la maji linafurika,train
+plumber,water_tank,"tanki ni chafu, maji yana harufu",train
+plumber,water_tank,tank cleaning service tafadhali,train
+plumber,water_tank,the water from our storage tank looks dirty,test
+plumber,water_tank,tanki la maji limejaa na linamwagika,test
+plumber,water_tank,new 1000L tank inahitaji kuwekwa,test
+other,other,I need a painter for my house,oos_test
+other,other,my car won't start,oos_test
+other,other,nataka mtu wa kukata nywele,oos_test
+other,other,I need someone to cook for a party,oos_test
+other,other,fundi wa kujenga ukuta,oos_test
+other,other,need a carpenter to fix my wardrobe,oos_test
+other,other,nahitaji daktari,oos_test
+other,other,my phone screen is cracked,oos_test
+other,other,laptop yangu ina virus,oos_test
+other,other,I want to book a taxi,oos_test
+other,other,mow my lawn,oos_test
+other,other,tafuta mtu wa kusafisha nyumba,oos_test
+other,other,need a mover for next week,oos_test
+other,other,pest control for cockroaches,oos_test
+other,other,nataka kununua gari,oos_test
+other,other,hello,oos_test
+other,other,what is the weather today,oos_test
+other,other,help me with my homework,oos_test
+other,other,"roof is leaking badly, I need roofing",oos_test
+other,other,"fix my fridge, it's not cold",oos_test
+appliance,ac_cooling_coil,condenser coil of my split unit is leaking refrigerant,train
+appliance,ac_cooling_coil,koili ya nje ya AC imeharibika kabisa,train
+appliance,ac_cooling_coil,AC coil imepata kutu,train
+appliance,ac_cooling_coil,badilisha koili ya kiyoyozi,train
+appliance,ac_cooling_coil,evaporator coil ya AC imeganda barafu,train
+appliance,ac_cooling_coil,cooling coil replacement ya AC yangu,train
+appliance,ac_cooling_coil,AC ina coil iliyoziba na haitoi baridi,test2
+appliance,ac_cooling_coil,copper coil of my window AC is corroded,test2
+appliance,ac_deep_clean,annual AC maintenance and cleaning,train
+appliance,ac_deep_clean,"safisha kiyoyozi, ni chafu ndani",train
+appliance,ac_deep_clean,"AC inatoa harufu mbaya, naomba cleaning",train
+appliance,ac_deep_clean,service ya AC ya kila mwaka,train
+appliance,ac_deep_clean,"filter za AC zimejaa vumbi, naomba zisafishwe",train
+appliance,ac_deep_clean,full service ya AC yangu ya window,train
+appliance,ac_deep_clean,my air conditioner needs a proper wash and service,test2
+appliance,ac_deep_clean,kiyoyozi hakijasafishwa kwa muda mrefu,test2
+appliance,ac_electrical_pcb,AC shows an error code and stops,train
+appliance,ac_electrical_pcb,"kiyoyozi hakiwaki, taa haziwaki hata",train
+appliance,ac_electrical_pcb,AC remote ina betri mpya lakini haijibu,train
+appliance,ac_electrical_pcb,AC capacitor ya outdoor imeungua,train
+appliance,ac_electrical_pcb,AC imekata stima na haiwaki tena,train
+appliance,ac_electrical_pcb,AC ya inverter ina error E5,train
+appliance,ac_electrical_pcb,my air conditioner does not respond to anything,test2
+appliance,ac_electrical_pcb,kiyoyozi kinazimika kwa ghafla kila mara,test2
+appliance,ac_fan_blower,AC indoor blower is rattling,train
+appliance,ac_fan_blower,feni ya outdoor unit ya AC imekwama,train
+appliance,ac_fan_blower,AC haipuliza hewa kwa nguvu,train
+appliance,ac_fan_blower,flap ya AC haisogei,train
+appliance,ac_fan_blower,AC fan blade imepinda,train
+appliance,ac_fan_blower,kiyoyozi kinapiga kelele ya feni nje,train
+appliance,ac_fan_blower,the air coming from my AC is very weak,test2
+appliance,ac_fan_blower,"AC ina kelele nje, feni inaonekana imeharibika",test2
+appliance,ac_gas_compressor,AC needs refilling with refrigerant,train
+appliance,ac_gas_compressor,AC blows air but it is not cold,train
+appliance,ac_gas_compressor,AC compressor will not start,train
+appliance,ac_gas_compressor,gesi ya AC imeisha,train
+appliance,ac_gas_compressor,kiyoyozi hakipoi chumba,train
+appliance,ac_gas_compressor,"AC ina leak ya gas, nijazie",train
+appliance,ac_gas_compressor,the AC is on but the room stays hot,test2
+appliance,ac_gas_compressor,kiyoyozi kinawaka lakini hakiletei baridi,test2
+appliance,ac_grill_misc,AC front cover is cracked,train
+appliance,ac_grill_misc,grill of the AC unit fell off,train
+appliance,ac_grill_misc,kifuniko cha AC kimepasuka,train
+appliance,ac_grill_misc,AC grill haijashika vizuri,train
+appliance,ac_grill_misc,badilisha grili ya outdoor unit,train
+appliance,ac_grill_misc,AC cover ya mbele imetoka,train
+appliance,ac_grill_misc,plastic panel on my air conditioner is broken,test2
+appliance,ac_grill_misc,kifuniko cha AC kimeanguka,test2
+appliance,ac_install_uninstall,I want a new AC mounted in my bedroom,train
+appliance,ac_install_uninstall,please fix my AC to the wall,train
+appliance,ac_install_uninstall,kuweka AC mpya chumbani,train
+appliance,ac_install_uninstall,ondoa AC kwenye ukuta wa zamani,train
+appliance,ac_install_uninstall,"AC installation, nina unit mbili",train
+appliance,ac_install_uninstall,"dismantle my AC, tunahamia nyumba nyingine",train
+appliance,ac_install_uninstall,fundi wa AC aje aweke split unit,test2
+appliance,ac_install_uninstall,I'd like my air conditioner taken down and refitted,test2
+appliance,ac_water_leakage,AC leaks water onto the floor,train
+appliance,ac_water_leakage,water drips from indoor AC unit,train
+appliance,ac_water_leakage,maji yanadondoka kutoka kwenye AC,train
+appliance,ac_water_leakage,AC drain haiondoi maji,train
+appliance,ac_water_leakage,AC inamwaga maji ukutani,train
+appliance,ac_water_leakage,water tray ya AC imefurika,train
+appliance,ac_water_leakage,water is running down the wall from my air conditioner,test2
+appliance,ac_water_leakage,kiyoyozi kinalowesha sakafu,test2
+appliance,microwave_controls,microwave start button does nothing,train
+appliance,microwave_controls,microwave screen shows nothing,train
+appliance,microwave_controls,microwave haipokei amri,train
+appliance,microwave_controls,kitufe cha start cha microwave kimekwama,train
+appliance,microwave_controls,display ya microwave imezimika,train
+appliance,microwave_controls,microwave control panel is dead,train
+appliance,microwave_controls,microwave keys are not responding,test2
+appliance,microwave_controls,skrini ya microwave haionyeshi saa,test2
+appliance,microwave_door,microwave door is loose,train
+appliance,microwave_door,door of my microwave doesn't shut properly,train
+appliance,microwave_door,mlango wa microwave umelegea,train
+appliance,microwave_door,microwave haifungi mlango,train
+appliance,microwave_door,kitasa cha microwave kimevunjika,train
+appliance,microwave_door,microwave door is hanging,train
+appliance,microwave_door,microwave will not close all the way,test2
+appliance,microwave_door,mlango wa oven ya microwave umetoka,test2
+appliance,microwave_fan_light_misc,microwave interior light has gone off,train
+appliance,microwave_fan_light_misc,microwave cord is frayed,train
+appliance,microwave_fan_light_misc,taa ndani ya microwave haiwaki,train
+appliance,microwave_fan_light_misc,microwave inatoa kelele ya feni,train
+appliance,microwave_fan_light_misc,waya wa microwave umechomeka,train
+appliance,microwave_fan_light_misc,microwave plug is broken,train
+appliance,microwave_fan_light_misc,the bulb inside my microwave is dead,test2
+appliance,microwave_fan_light_misc,microwave ina sauti ya ajabu ya feni,test2
+appliance,microwave_not_heating,microwave works but food stays cold,train
+appliance,microwave_not_heating,microwave doesn't warm my food,train
+appliance,microwave_not_heating,microwave inazunguka lakini haipashi,train
+appliance,microwave_not_heating,chakula hakipati joto kwenye microwave,train
+appliance,microwave_not_heating,microwave grill haipashi,train
+appliance,microwave_not_heating,oven haitoi joto,train
+appliance,microwave_not_heating,"after reheating, the plate is still cold",test2
+appliance,microwave_not_heating,microwave inalia lakini hakuna joto,test2
+appliance,microwave_turntable,turntable in microwave doesn't turn,train
+appliance,microwave_turntable,microwave glass plate cracked,train
+appliance,microwave_turntable,sahani ya kioo ya microwave imevunjika,train
+appliance,microwave_turntable,microwave haizungushi sahani,train
+appliance,microwave_turntable,turntable motor ya microwave imekufa,train
+appliance,microwave_turntable,microwave roller ring is missing,train
+appliance,microwave_turntable,the plate inside doesn't rotate when heating,test2
+appliance,microwave_turntable,sahani ya microwave imekwama,test2
+electrician,doorbell,doorbell button at the gate is dead,train
+electrician,doorbell,install a wireless doorbell,train
+electrician,doorbell,kengele ya geti haipigi,train
+electrician,doorbell,weka kengele mpya ya mlango,train
+electrician,doorbell,doorbell inapiga yenyewe,train
+electrician,doorbell,bell ya nyumba haifanyi kazi,train
+electrician,doorbell,no sound when someone presses the bell,test2
+electrician,doorbell,kengele haitoi sauti,test2
+electrician,fan_repair_install,ceiling fan is wobbling,train
+electrician,fan_repair_install,fan runs slowly,train
+electrician,fan_repair_install,feni ya dari inatikisika,train
+electrician,fan_repair_install,feni haizunguki vizuri,train
+electrician,fan_repair_install,fundi aweke feni sebuleni,train
+electrician,fan_repair_install,feni inapiga kelele ikizunguka,train
+electrician,fan_repair_install,my fan stopped working suddenly,test2
+electrician,fan_repair_install,feni ya chumba haiwaki,test2
+electrician,geyser_heater,water heater tripped and won't heat,train
+electrician,geyser_heater,instant shower heater is not working,train
+electrician,geyser_heater,geyser haiwaki,train
+electrician,geyser_heater,hita ya bafu haina joto,train
+electrician,geyser_heater,weka water heater mpya,train
+electrician,geyser_heater,maji hayapashi kwenye geyser,train
+electrician,geyser_heater,I have cold water only in the bathroom,test2
+electrician,geyser_heater,hita ya maji ina shida,test2
+electrician,inverter_battery,backup battery is dead,train
+electrician,inverter_battery,inverter needs service,train
+electrician,inverter_battery,betri ya UPS imeharibika,train
+electrician,inverter_battery,inverter imeacha kuchaji,train
+electrician,inverter_battery,weka mfumo wa backup power,train
+electrician,inverter_battery,power backup haidumu,train
+electrician,inverter_battery,my backup system does not hold charge,test2
+electrician,inverter_battery,inverter inalia lakini haiwashi,test2
+electrician,lights_bulbs,light bulb in the kitchen has blown,train
+electrician,lights_bulbs,replace fluorescent tube,train
+electrician,lights_bulbs,balbu ya jikoni imeungua,train
+electrician,lights_bulbs,taa ya sebuleni haiwaki,train
+electrician,lights_bulbs,weka LED bulbs nyumba nzima,train
+electrician,lights_bulbs,taa zinaflicker,train
+electrician,lights_bulbs,the light in my room won't come on,test2
+electrician,lights_bulbs,taa ya barazani imeungua,test2
+electrician,mcb_fuse_breaker,main breaker trips often,train
+electrician,mcb_fuse_breaker,fuse blown again,train
+electrician,mcb_fuse_breaker,MCB imetrip,train
+electrician,mcb_fuse_breaker,fuse imeungua tena,train
+electrician,mcb_fuse_breaker,power inakatika nikitumia heater,train
+electrician,mcb_fuse_breaker,distribution board inahitaji breaker mpya,train
+electrician,mcb_fuse_breaker,electricity goes off when I switch on the oven,test2
+electrician,mcb_fuse_breaker,breaker inazima mara kwa mara,test2
+electrician,switch_socket_board,light switch is loose,train
+electrician,switch_socket_board,socket is hot to touch,train
+electrician,switch_socket_board,swichi ya taa imelegea,train
+electrician,switch_socket_board,soketi ina cheche,train
+electrician,switch_socket_board,add a new plug point,train
+electrician,switch_socket_board,badilisha swichi iliyovunjika,train
+electrician,switch_socket_board,power point near the bed is dead,test2
+electrician,switch_socket_board,soketi ya ukutani haina umeme,test2
+electrician,tv_home_theater_install,hang a TV on my wall,train
+electrician,tv_home_theater_install,fix TV bracket and cables,train
+electrician,tv_home_theater_install,weka TV ukutani sebuleni,train
+electrician,tv_home_theater_install,kuweka TV na sound system,train
+electrician,tv_home_theater_install,TV bracket installation,train
+electrician,tv_home_theater_install,naomba fundi aweke TV yangu mpya,train
+electrician,tv_home_theater_install,I want my new flat screen put on the wall,test2
+electrician,tv_home_theater_install,fundi aning'inize TV,test2
+electrician,wiring,rewire the whole apartment,train
+electrician,wiring,wiring for a new room,train
+electrician,wiring,kuweka waya mpya nyumbani,train
+electrician,wiring,nyumba mpya inahitaji wiring,train
+electrician,wiring,waya za zamani zinaungua,train
+electrician,wiring,run cables for an extension,train
+electrician,wiring,electrical wiring for a new house,test2
+electrician,wiring,naomba wiring ya chumba kipya,test2
+plumber,drain_blockage,floor drain is clogged,train
+plumber,drain_blockage,sewer drain overflowing outside,train
+plumber,drain_blockage,mfereji wa nje umejaa maji,train
+plumber,drain_blockage,drain ya bafuni imeziba,train
+plumber,drain_blockage,maji machafu yamerudi,train
+plumber,drain_blockage,unblock the drainage,train
+plumber,drain_blockage,water pools outside because the drain is stuck,test2
+plumber,drain_blockage,mfereji umeziba kabisa,test2
+plumber,pipe_leakage,pipe burst inside the wall,train
+plumber,pipe_leakage,water leaking from ceiling pipe,train
+plumber,pipe_leakage,bomba la ndani ya ukuta limepasuka,train
+plumber,pipe_leakage,pipe inavuja chini ya sakafu,train
+plumber,pipe_leakage,maji yanatoka ukutani,train
+plumber,pipe_leakage,leaking pipe under the house,train
+plumber,pipe_leakage,damp wall suggests a burst pipe,test2
+plumber,pipe_leakage,"bomba limepasuka, maji yanamwagika",test2
+plumber,plumbing_fittings_misc,connect water to my washing machine,train
+plumber,plumbing_fittings_misc,install hose for the sink,train
+plumber,plumbing_fittings_misc,unganisha mashine ya kufua na maji,train
+plumber,plumbing_fittings_misc,weka hose ya sinki,train
+plumber,plumbing_fittings_misc,small plumbing fittings job,train
+plumber,plumbing_fittings_misc,drain cover installation,train
+plumber,plumbing_fittings_misc,new washing machine needs water connection,test2
+plumber,plumbing_fittings_misc,fundi aunganishe maji kwa mashine,test2
+plumber,shower,shower pressure is weak,train
+plumber,shower,fix shower head,train
+plumber,shower,maji ya shower ni dhaifu,train
+plumber,shower,weka shower mpya bafuni,train
+plumber,shower,shower diverter ina shida,train
+plumber,shower,shower haitoki maji,train
+plumber,shower,need a new rain shower fitted,test2
+plumber,shower,shower inatoa maji kidogo sana,test2
+plumber,tap_mixer,kitchen tap keeps dripping,train
+plumber,tap_mixer,bathroom tap is loose,train
+plumber,tap_mixer,bomba la jikoni linadondoka,train
+plumber,tap_mixer,badilisha bomba la bafuni,train
+plumber,tap_mixer,weka mixer mpya,train
+plumber,tap_mixer,tap handle imevunjika,train
+plumber,tap_mixer,the sink faucet drips constantly,test2
+plumber,tap_mixer,bomba halifungi vizuri,test2
+plumber,toilet_flush,toilet doesn't flush properly,train
+plumber,toilet_flush,cistern leaks,train
+plumber,toilet_flush,choo kina shida ya flush,train
+plumber,toilet_flush,tanki la choo halijai maji,train
+plumber,toilet_flush,weka choo cha kisasa,train
+plumber,toilet_flush,toilet seat imevunjika,train
+plumber,toilet_flush,the WC keeps running water,test2
+plumber,toilet_flush,choo hakifungi maji,test2
+plumber,wash_basin,fit a basin in the bathroom,train
+plumber,wash_basin,bathroom sink won't drain,train
+plumber,wash_basin,basin inavuja chini,train
+plumber,wash_basin,weka sinki mpya,train
+plumber,wash_basin,sink ya bafuni haitoi maji,train
+plumber,wash_basin,handbasin is blocked and leaking,test2
+plumber,wash_basin,sinki ya mikono inavuja,test2
+plumber,water_motor_pump,water pump won't start,train
+plumber,water_motor_pump,pump is humming but no water,train
+plumber,water_motor_pump,pampu haijibu,train
+plumber,water_motor_pump,weka pampu mpya,train
+plumber,water_motor_pump,pampu ya borehole ina shida,train
+plumber,water_motor_pump,booster pump has stopped pumping,test2
+plumber,water_motor_pump,pampu ya maji inapiga kelele tu,test2
+plumber,water_tank,tank water smells,train
+plumber,water_tank,overhead tank needs cleaning,train
+plumber,water_tank,weka tanki jipya la maji,train
+plumber,water_tank,safisha tanki la paa,train
+plumber,water_tank,tanki la maji lina uchafu,train
+plumber,water_tank,our storage tank is full of sludge,test2
+plumber,water_tank,tanki la maji limeoza,test2

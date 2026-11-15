@@ -1,0 +1,27 @@
+service_text,trade,ask_the_fundi,price_kes,includes_materials,date,source
+tap repair,plumber,Fix a leaking tap,500,no,15/11/2026,W.J
+tap installation,plumber,Install a new tap,800,no,15/11/2026,W.J
+wash basin installation,plumber,Install a wash basin,900,no,15/11/2026,W.J
+shower installation (wall mounted/ hand-held),plumber,Install a shower,1000,no,15/11/2026,W.J
+drainage pipe blockage removal,plumber,Unblock a drain,500,no,15/11/2026,W.J
+pipeline leakage repair,plumber,Repair a leaking water pipe,1000,no,15/11/2026,W.J
+motor replacement,plumber,Replace a water pump motor,2500,no,15/11/2026,W.J
+overhead tank cleaning (upto 1000l),plumber,Clean an overhead water tank up to 1000 litres,1400,no,15/11/2026,W.J
+ceiling fan installation,electrician,Install a ceiling fan,2000,no,15/11/2026,H.E
+fan repair,electrician,Repair a fan,500,no,15/11/2026,H.E
+switch/socket replacement,electrician,Replace a switch or socket,1000,yes,15/11/2026,H.E
+switchboard repair,electrician,Repair a switchboard,1300,no,15/11/2026,H.E
+tubelight installation/repair,electrician,Install or repair a tube light,500,no,15/11/2026,H.E
+door bell installation,electrician,Install a doorbell,800,no,15/11/2026,H.E
+geyser installation,electrician,Install a water heater,2000,no,15/11/2026,H.E
+new internal wiring (per 5m),electrician,"Run new wiring, per 5 metres",1000,no,15/11/2026,H.E
+tv installation (up to 48 inches),electrician,Mount a TV up to 48 inches,1500,yes,15/11/2026,H.E
+double pole mcb installation,electrician,Install a double pole circuit breaker,1200,no,15/11/2026,H.E
+split ac installation,appliance,Install a split AC,5000,no,15/11/2026,X.M.S
+gas charging,appliance,Refill AC gas,5000,yes,15/11/2026,X.M.S
+deep clean ac service (split),appliance,Deep clean and service a split AC,3500,no,15/11/2026,X.M.S
+compressor 1.5 ton,appliance,Replace a 1.5 ton AC compressor,30000,yes,15/11/2026,X.M.S
+water leakage repaired- split ac,appliance,Fix a split AC water leak,2000,no,15/11/2026,X.M.S
+power cord,appliance,Replace a microwave power cord,500,no,15/11/2026,X.M.S
+door latch,appliance,Replace a microwave door latch,1000,no,15/11/2026,X.M.S
+turn table motor,appliance,Replace a microwave turntable motor,1000,no,15/11/2026,X.M.S
