@@ -7,9 +7,12 @@ Run:  uvicorn app:app --host 0.0.0.0 --port 8000
 Needs classifier.joblib and price_model.joblib (written by notebooks 03 and 04) in ../models.
 """
 import os
+import time
+from functools import lru_cache
 import numpy as np
 import joblib
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
 # models live in ../models by default; set MODELS_DIR to point somewhere else
@@ -17,14 +20,30 @@ MODELS_DIR = os.environ.get("MODELS_DIR", os.path.join(os.path.dirname(os.path.a
 clf_bundle = joblib.load(os.path.join(MODELS_DIR, "classifier.joblib"))
 price_bundle = joblib.load(os.path.join(MODELS_DIR, "price_model.joblib"))
 
-# the multilingual encoder is loaded once, only if a saved model uses it
+# --- multilingual encoder: loaded ONCE at startup (not on the first request) and warmed up ---
 _encoder = None
-def embed(texts, model_name, prefix):
+def _load_encoder(model_name):
     global _encoder
-    if _encoder is None:
-        from sentence_transformers import SentenceTransformer
-        _encoder = SentenceTransformer(model_name)
-    return _encoder.encode([prefix + t for t in texts], normalize_embeddings=True, show_progress_bar=False)
+    from sentence_transformers import SentenceTransformer
+    try:
+        _encoder = SentenceTransformer(model_name, local_files_only=True)   # cached copy: no network round-trips
+    except Exception:
+        _encoder = SentenceTransformer(model_name)                          # first run: download
+    _encoder.encode(["warm up"], normalize_embeddings=True, show_progress_bar=False)
+
+_emb_models = ([clf_bundle["model_name"]] if clf_bundle["best"] == "embeddings" else []) + \
+              ([price_bundle["model_name"]] if price_bundle["use_emb"] else [])
+if _emb_models:
+    t0 = time.perf_counter(); _load_encoder(_emb_models[0])
+    print(f"Encoder ready in {time.perf_counter() - t0:.1f}s")
+
+@lru_cache(maxsize=1024)
+def _embed_one(prefix, text):
+    # cached: the same text is never embedded twice (classifier and price model, repeated queries)
+    return _encoder.encode([prefix + text], normalize_embeddings=True, show_progress_bar=False)[0]
+
+def embed(texts, model_name, prefix):
+    return np.vstack([_embed_one(prefix, t) for t in texts])
 
 def classify(text):
     b = clf_bundle
@@ -64,8 +83,23 @@ def to_kes(inr_values, group):
 
 app = FastAPI(title="Home Services ML engine", version="1.0")
 
+@app.middleware("http")
+async def timing(request, call_next):
+    t0 = time.perf_counter()
+    response = await call_next(request)
+    ms = (time.perf_counter() - t0) * 1000
+    response.headers["X-Process-Time-ms"] = f"{ms:.0f}"
+    if request.url.path == "/diagnose":
+        print(f"/diagnose took {ms:.0f} ms")
+    return response
+
 class Query(BaseModel):
     text: str = Field(..., min_length=2, max_length=500, description="Customer's description of the problem")
+
+@app.get("/", include_in_schema=False)
+def home():
+    # simple test page, served from the same address as the API
+    return FileResponse(os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html"))
 
 @app.get("/health")
 def health():

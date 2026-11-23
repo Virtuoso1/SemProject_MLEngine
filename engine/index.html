@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engine Test Page</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1b2430; --mute:#667085; --line:#e3e7ee;
+    --accent:#2563eb; --accent-ink:#ffffff;
+    --electrician:#d92d20; --plumber:#2563eb; --appliance:#e8730c;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0f141b; --card:#171e28; --ink:#e8edf4; --mute:#9aa6b8; --line:#273141;
+      --accent:#5b8def; --accent-ink:#0b1220;
+      --electrician:#f2574a; --plumber:#5b8def; --appliance:#f59a4a;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:680px;margin:0 auto;padding:24px 16px 48px}
+  h1{font-size:1.25rem;margin:0 0 2px}
+  .sub{color:var(--mute);margin:0 0 20px;font-size:.9rem}
+  form{display:flex;gap:8px}
+  input[type=text]{flex:1;min-width:0;padding:12px 14px;font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px}
+  input[type=text]:focus{outline:2px solid var(--accent);outline-offset:1px}
+  button{font:inherit;cursor:pointer}
+  .go{padding:12px 18px;border:0;border-radius:10px;background:var(--accent);color:var(--accent-ink);font-weight:600}
+  .go:disabled{opacity:.6;cursor:wait}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}
+  .chip{padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:.85rem}
+  .chip:hover{border-color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+  .badge{display:inline-block;padding:2px 10px;border-radius:999px;color:#fff;font-size:.8rem;font-weight:600;text-transform:capitalize}
+  .badge.electrician{background:var(--electrician)} .badge.plumber{background:var(--plumber)} .badge.appliance{background:var(--appliance)}
+  .group{font-size:1.15rem;font-weight:600;margin:8px 0 12px;text-transform:capitalize}
+  .row{display:flex;justify-content:space-between;color:var(--mute);font-size:.85rem;margin-bottom:4px}
+  .bar{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin-bottom:16px}
+  .bar>i{display:block;height:100%;background:var(--accent)}
+  .price{font-size:1.9rem;font-weight:700;letter-spacing:-.01em}
+  .range{color:var(--mute);font-size:.95rem}
+  .note{color:var(--mute);font-size:.8rem;margin-top:10px}
+  .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+  .tile{padding:14px 6px;border-radius:10px;text-align:center;color:#fff;font-weight:600;font-size:.9rem}
+  .tile.electrician{background:var(--electrician)} .tile.plumber{background:var(--plumber)} .tile.appliance{background:var(--appliance)}
+  .err{border-color:var(--electrician)}
+  details{margin-top:12px;color:var(--mute);font-size:.85rem}
+  pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;overflow:auto;font-size:.8rem;color:var(--ink)}
+  h2{font-size:1rem;margin:24px 0 8px}
+  table{width:100%;border-collapse:collapse;font-size:.85rem}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--mute);font-weight:600}
+  .scroll{overflow-x:auto}
+  .tools{display:flex;justify-content:space-between;align-items:center}
+  .link{background:none;border:0;color:var(--accent);padding:0;font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Home Services engine</h1>
+  <p class="sub">Type what is wrong, in English, Swahili or both. This page calls <code>/diagnose</code> on this server.</p>
+
+  <form id="f">
+    <input type="text" id="q" placeholder="e.g. bomba la jikoni linavuja" autocomplete="off" maxlength="500" aria-label="Describe the problem">
+    <button class="go" id="go" type="submit">Diagnose</button>
+  </form>
+
+  <div class="chips" id="chips"></div>
+  <div id="out" aria-live="polite"></div>
+
+  <div class="tools"><h2>History</h2><button class="link" id="csv" type="button">Copy as CSV</button></div>
+  <div class="scroll"><table>
+    <thead><tr><th>Text</th><th>Result</th><th>Conf.</th><th>Price (KSh)</th></tr></thead>
+    <tbody id="hist"><tr><td colspan="4" style="color:var(--mute)">Nothing yet.</td></tr></tbody>
+  </table></div>
+</main>
+
+<script>
+const EXAMPLES = ["kitchen tap is leaking","bomba la jikoni linavuja","AC haipoi","my fan is not spinning",
+                  "stima imekatika sebuleni","microwave haipashi chakula","sink imeziba","I need a painter"];
+const $ = id => document.getElementById(id);
+const history = [];
+const fmt = n => n.toLocaleString("en-KE");
+const pretty = s => s.replace(/_/g, " ").replace(/\b(ac|tv|mcb|pcb|lvt)\b/gi, m => m.toUpperCase());
+const esc = s => s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+EXAMPLES.forEach(t => {
+  const b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.textContent = t;
+  b.onclick = () => { $("q").value = t; run(t); };
+  $("chips").appendChild(b);
+});
+
+$("f").addEventListener("submit", e => { e.preventDefault(); run($("q").value.trim()); });
+
+async function run(text){
+  if (text.length < 2){ $("q").focus(); return; }
+  $("go").disabled = true;
+  const t0 = performance.now();
+  try{
+    const r = await fetch("/diagnose", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({text})});
+    if (!r.ok) throw new Error("Server returned " + r.status);
+    const d = await r.json();
+    show(text, d, Math.round(performance.now() - t0)); remember(text, d);
+  }catch(err){
+    $("out").innerHTML = `<div class="card err"><b>Could not reach the engine.</b><div class="note">${esc(String(err.message))}. Is the server running?</div></div>`;
+  }finally{ $("go").disabled = false; }
+}
+
+function show(text, d, ms){
+  const raw = `<details><summary>Raw response</summary><pre>${esc(JSON.stringify(d, null, 2))}</pre></details>`;
+  if (d.status !== "ok"){
+    $("out").innerHTML = `<div class="card">
+      <b>Not sure what this is</b> <span class="range">(confidence ${d.confidence})</span>
+      <div class="note">The app would show the three trade tiles instead of guessing. Responded in ${ms} ms.</div>
+      <div class="tiles"><div class="tile electrician">Electrician</div><div class="tile plumber">Plumber</div><div class="tile appliance">Appliance</div></div>
+      ${raw}</div>`;
+    return;
+  }
+  const p = d.price, pct = Math.round(d.confidence * 100);
+  $("out").innerHTML = `<div class="card">
+    <span class="badge ${esc(d.trade)}">${esc(d.trade)}</span>
+    <div class="group">${esc(pretty(d.group))}</div>
+    <div class="row"><span>Confidence</span><span>${pct}%</span></div>
+    <div class="bar"><i style="width:${pct}%"></i></div>
+    <div class="price">KSh ${fmt(p.mid)}</div>
+    <div class="range">likely range KSh ${fmt(p.low)} to ${fmt(p.high)}</div>
+    <div class="note">${esc(d.note || "")} Responded in ${ms} ms.</div>
+    ${raw}</div>`;
+}
+
+function remember(text, d){
+  history.unshift({text, d});
+  if (history.length > 20) history.pop();
+  $("hist").innerHTML = history.map(h => {
+    const ok = h.d.status === "ok";
+    return `<tr><td>${esc(h.text)}</td>
+      <td>${ok ? esc(h.d.trade) + " / " + esc(pretty(h.d.group)) : "unknown"}</td>
+      <td>${Math.round(h.d.confidence * 100)}%</td>
+      <td>${ok ? fmt(h.d.price.low) + " to " + fmt(h.d.price.high) : "-"}</td></tr>`;
+  }).join("");
+}
+
+$("csv").onclick = async () => {
+  const q = s => '"' + String(s).replace(/"/g, '""') + '"';
+  const rows = ["text,status,trade,group,confidence,low,mid,high"].concat(history.map(h => {
+    const d = h.d, p = d.price || {};
+    return [q(h.text), d.status, d.trade || "", d.group || "", d.confidence, p.low ?? "", p.mid ?? "", p.high ?? ""].join(",");
+  }));
+  try{ await navigator.clipboard.writeText(rows.join("\n")); $("csv").textContent = "Copied"; }
+  catch(e){ $("csv").textContent = "Copy failed"; }
+  setTimeout(() => $("csv").textContent = "Copy as CSV", 1500);
+};
+</script>
+</body>
+</html>

@@ -5,8 +5,11 @@ One endpoint for the mobile app.
 ## Run
 1. Put `classifier.joblib` (notebook 03) and `price_model.joblib` (notebook 04) in `../models/` (or set the MODELS_DIR environment variable).
 2. `pip install -r requirements.txt`
-3. `python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload'
+3. `uvicorn app:app --host 0.0.0.0 --port 8000`
 4. Interactive docs: http://localhost:8000/docs
+
+## Test page
+Open http://localhost:8000/ for a simple page to try phrases and see the result, with a history table you can copy as CSV.
 
 ## Request
 POST /diagnose
